@@ -3,18 +3,15 @@ import React from 'react'
 export default function Contact() {
   return (
     <div>
-      <div className=" h-lvh  container mx-auto pt-24">
-      <h2 className='text-gray-900 font-bold text-4xl text-center pt-6'>CONTACT SECTION</h2>
-
+      <section className=" h-lvh  container mx-auto pt-24">
+     <header>
+     <h2 className='text-gray-900 font-bold text-4xl text-center pt-6'>CONTACT SECTION</h2>
       <div class="flex items-center justify-center">
-      <div class="h-1 bg-[#2C3E50] w-20"></div>
-        <span class="mx-2 text-[#2C3E50] font-bold text-lg "><i className='fas fa-star'></i></span>
+        <div class="h-1 bg-[#2C3E50] w-20"></div>
+          <span class="mx-2 text-[#2C3E50] font-bold text-lg "><i className='fas fa-star'></i></span>
         <div class="h-1 bg-[#2C3E50] w-20"></div>
       </div>
-
-
-
-
+     </header>
       <main className="flex items-center justify-center flex-col p-28 gap-y-8">
         <div class="relative  m-2 w-full">
           <input type="text" id="floating_standard" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer" placeholder=" " />
@@ -39,7 +36,7 @@ export default function Contact() {
         </div>
 
       </main>
-      </div>
+      </section>
     </div>
   )
 }

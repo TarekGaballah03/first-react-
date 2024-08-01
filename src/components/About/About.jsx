@@ -9,9 +9,9 @@ export default function About() {
           <header>
           <h2 className='font-bold text-4xl text-center pt-6 uppercase'>about component</h2>
             <div className="flex justify-center items-center py-3">
-              <div class="bg-white h-1 w-20"></div>
-              <span class="mx-2 font-bold text-lg "><i className='fas fa-star'></i></span>
-              <div class="bg-white  h-1 w-20"></div>
+              <div className="bg-white h-1 w-20"></div>
+              <span className="mx-2 font-bold text-lg "><i className='fas fa-star'></i></span>
+              <div className="bg-white  h-1 w-20"></div>
             </div>
           </header>
            <main>
